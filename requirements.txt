@@ -1,0 +1,6 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+faster-whisper
+resemblyzer
+requests
+setuptools<81  # webrtcvad (z resemblyzer) importuje pkg_resources
